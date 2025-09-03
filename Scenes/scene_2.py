@@ -1,4 +1,4 @@
-# scene_2.py
+
 
 def play_scene():
     """
@@ -15,10 +15,10 @@ def play_scene():
 
     if choice_a == "search":
         print("You search carefully and find a mysterious item...")
-        # Placeholder logic
+        
     elif choice_a == "move on":
         print("You decide to keep going without lingering...")
-        # Placeholder logic
+        
     else:
         print("Unrecognized choice. You hesitate, but time moves on.")
     
