@@ -26,17 +26,17 @@ def play_scene():
     print("\n--- Moving to Section B of Scene 1 ---")
     print("Section B: You notice a strange noise coming from a nearby cave.")
 
-    # Example of a second choice for Section B
-    choice_b = input("Do you 'follow' the strange noise or 'ignore' it? ").lower().strip()
+    # # Example of a second choice for Section B
+    # choice_b = input("Do you 'follow' the strange noise or 'ignore' it? ").lower().strip()
     
-    if choice_b == "follow":
-        print("You follow the noise into a dark corridor...")
-        # Decide the next scene
-        return "scene_2"
-    elif choice_b == "ignore":
-        print("You ignore the noise and stay put, but something else catches your eye...")
-        # Possibly go to a different scene or move forward
-        return "scene_2"
-    else:
-        print("Not sure what that means. Let's assume you follow the noise anyway.")
-        return "scene_2"
+    # if choice_b == "follow":
+    #     print("You follow the noise into a dark corridor...")
+    #     # Decide the next scene
+    #     return "scene_2"
+    # elif choice_b == "ignore":
+    #     print("You ignore the noise and stay put, but something else catches your eye...")
+    #     # Possibly go to a different scene or move forward
+    #     return "scene_2"
+    # else:
+    #     print("Not sure what that means. Let's assume you follow the noise anyway.")
+    #     return "scene_2"
